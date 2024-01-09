@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<div id="createNewIngredient">
+
+    <form id="newIngredientForm">
+        <input id="createIngredientName" >
+        <input type="submit"   value="Zutat hinzufügen">
+    </form>
+</div>
+
+
+
+
+<div id="editExistingIngredient">
+
+    <form id="editIngredientForm">
+        <input id="editIngredientName" >
+        <input type="submit"   value="Zutat ändern">
+        <button id="cancleEditIngredient">Abbrechen</button>
+    </form>
+</div>
+
+
+
+
+
+<table id="listIngredients">
+    <thead>
+    <th>Name der Zutat</th>
+    <th>Aktionen</th>
+    </thead>
+    <tbody id="listIngredientsBody">
+    <tr>
+        <td>Beispiel</td>
+        <td><button>Bearbeiten</button><button>Löschen</button></td>
+    </tr>
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+<table id="listCakes">
+    <thead>
+    <th>Name</th>
+    <th>Zutaten</th>
+    <th>Aktionen</th>
+    </thead>
+    <tbody id="listCakeBody">
+    <tr>
+        <td>Beispielkuchen</td>
+        <td>Beispielzutaten, Beispielzutaten, Beispielzutaten, Beispielzutaten</td>
+        <td><button>Bearbeiten</button><button>Löschen</button></td>
+    </tr>
+    </tbody>
+</table>
+<script src="Ingredient.js"></script>
+<script src="Cake.js"></script>
+<script src="Database.js"></script>
+<script src="ClassIntro.js"></script>
+<script src="demoData.js"></script>
+
+</body>
+</html>
